@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ECS.Legacy
 {
+    //
     public interface IWindow
     {
         void OpenWindow();
