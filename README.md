@@ -1,1 +1,0 @@
-# SWT_Lab_Design_for_testability
