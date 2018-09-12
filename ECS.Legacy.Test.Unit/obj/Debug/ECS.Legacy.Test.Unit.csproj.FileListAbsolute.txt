@@ -1,0 +1,13 @@
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\bin\Debug\ECS.Legacy.Test.Unit.dll
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\bin\Debug\ECS.Legacy.Test.Unit.pdb
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\obj\Debug\ECS.Legacy.Test.Unit.csprojAssemblyReference.cache
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\obj\Debug\ECS.Legacy.Test.Unit.csproj.CoreCompileInputs.cache
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\obj\Debug\ECS.Legacy.Test.Unit.dll
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\obj\Debug\ECS.Legacy.Test.Unit.pdb
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\bin\Debug\nunit.framework.dll
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\bin\Debug\nunit.framework.pdb
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\bin\Debug\nunit.framework.xml
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\obj\Debug\ECS.Legacy.Test.Unit.csproj.CopyComplete
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\bin\Debug\ECS.Legacy.exe
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\bin\Debug\ECS.Legacy.pdb
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy.Test.Unit\bin\Debug\ECS.Legacy.exe.config

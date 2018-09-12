@@ -1,0 +1,7 @@
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy\obj\Debug\ECS.Legacy.csprojAssemblyReference.cache
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy\obj\Debug\ECS.Legacy.csproj.CoreCompileInputs.cache
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy\bin\Debug\ECS.Legacy.exe.config
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy\bin\Debug\ECS.Legacy.exe
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy\bin\Debug\ECS.Legacy.pdb
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy\obj\Debug\ECS.Legacy.exe
+C:\Users\Mathi\OneDrive\Skrivebord\Skole\git\SWT\SWT_Lab_Design_for_testability\ECS.Legacy\obj\Debug\ECS.Legacy.pdb

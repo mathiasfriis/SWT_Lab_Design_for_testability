@@ -1,46 +1,80 @@
-﻿namespace ECS.Legacy
+﻿using System;
+
+namespace ECS.Legacy
 {
     public class ECS
     {
-        private int _threshold;
-        private readonly TempSensor _tempSensor;
-        private readonly Heater _heater;
+        private int _upperThreshold;
+        private int _lowerThreshold;
+        private readonly ITempSensor _tempSensor;
+        private readonly IHeater _heater;
 
-        public ECS(int thr)
+        public ECS(ITempSensor tempSensor, IHeater heater, int loThr, int hiThr)
         {
-            SetThreshold(thr);
-            _tempSensor = new TempSensor();
-            _heater = new Heater();
+            SetUpperThreshold(hiThr);
+            SetLowerThreshold(loThr);
+            _tempSensor = tempSensor;
+            _heater = heater;
         }
 
         public void Regulate()
         {
-            var t = _tempSensor.GetTemp();
-            if (t < _threshold)
+            var curTemp = _tempSensor.GetTemp();
+            // Determine which action to take according to the temperature
+            if (curTemp < _lowerThreshold)
+            {
                 _heater.TurnOn();
-            else
+                //_window.Close();
+            }
+            else if (curTemp >= _lowerThreshold && curTemp <= _upperThreshold)
+            {
                 _heater.TurnOff();
-
+                //_window.Close();
+            }
+            else
+            {
+                _heater.TurnOff();
+                //_window.Open();
+            }
         }
 
-        public void SetThreshold(int thr)
+        public void SetUpperThreshold(int thr)
         {
-            _threshold = thr;
+            if(thr>=_lowerThreshold)
+            {
+                _upperThreshold = thr;
+            }
+            else
+            {
+                throw new ArgumentException("Upper threshold must be >= lower threshold");
+            }
         }
 
-        public int GetThreshold()
+        public void SetLowerThreshold(int thr)
         {
-            return _threshold;
+            if (thr <= _upperThreshold)
+            {
+                _lowerThreshold = thr;
+            }
+            else
+            {
+                throw new ArgumentException("Lower threshold must be <= upper threshold");
+            }
+        }
+
+        public int GetUpperThreshold()
+        {
+            return _upperThreshold;
+        }
+
+        public int GetLowerThreshold()
+        {
+            return _lowerThreshold;
         }
 
         public int GetCurTemp()
         {
             return _tempSensor.GetTemp();
-        }
-
-        public bool RunSelfTest()
-        {
-            return _tempSensor.RunSelfTest() && _heater.RunSelfTest();
         }
     }
 }
